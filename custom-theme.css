@@ -1,71 +1,30 @@
-/* === Connect‑D Branded Theme for Vtiger Portal === */
-
-/* Base Styling */
+/* custom-theme.css - Connect-D Vtiger Portal Theme */
 body {
-  background-color: #f4f6f9;
-  font-family: "Segoe UI", sans-serif;
-  color: #333;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
 }
 
-/* Navbar & Header */
-.navbar,
-.navbar-header,
-.navbar-inverse {
-  background-color: #002b49 !important;
-  border-color: #001d33 !important;
+.navbar, .navbar-header, .navbar-inverse {
+    background-color: #002b49 !important;
+    border-color: #001d33;
 }
 
-/* Links */
-a,
-.btn-link {
-  color: #007bff !important;
+a, .btn-link {
+    color: #007bff !important;
 }
 
-/* Primary Buttons */
-.btn-primary,
-.input-group-btn .btn-primary {
-  background-color: #005aa7 !important;
-  border-color: #004080 !important;
+.btn-primary {
+    background-color: #005aa7;
+    border-color: #004080;
 }
 
-/* Panel/Box Headings */
 .panel-heading {
-  background-color: #003d66 !important;
-  color: #fff !important;
+    background-color: #003d66 !important;
+    color: #ffffff !important;
 }
 
-/* Footer Area */
-.footer,
-.page-footer {
-  background-color: #002b49;
-  color: #fff;
-}
-
-/* Form Inputs */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea,
-select {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-/* Tables */
-table,
-.ticket-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-th {
-  background-color: #e9eef3;
-  color: #333;
-  padding: 0.75rem;
-}
-
-td {
-  padding: 0.75rem;
-  border-bottom: 1px solid #ddd;
+.footer {
+    background-color: #002b49;
+    color: #ffffff;
 }
