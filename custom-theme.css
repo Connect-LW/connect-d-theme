@@ -1,0 +1,30 @@
+/* custom-theme.css - Connect-D Vtiger Portal Theme */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.navbar, .navbar-header, .navbar-inverse {
+    background-color: #002b49 !important;
+    border-color: #001d33;
+}
+
+a, .btn-link {
+    color: #007bff !important;
+}
+
+.btn-primary {
+    background-color: #005aa7;
+    border-color: #004080;
+}
+
+.panel-heading {
+    background-color: #003d66 !important;
+    color: #ffffff !important;
+}
+
+.footer {
+    background-color: #002b49;
+    color: #ffffff;
+}
