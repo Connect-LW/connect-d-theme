@@ -1,30 +1,77 @@
-/* custom-theme.css - Connect-D Vtiger Portal Theme */
-body {
-    background-color: #f4f6f9;
-    font-family: 'Segoe UI', sans-serif;
-    color: #333;
+
+/* === Connect‑D.tech Custom Theme === */
+
+
+:root {
+  --primary-blue: #4374FA;
+  --bright-blue: #4C74FC;
+  --dark-blue: #0C2454;
+  --neutral-light: #BCC3D6;
+  --neutral-mid: #5E7295;
+  --text-default: #2F4167;
 }
 
-.navbar, .navbar-header, .navbar-inverse {
-    background-color: #002b49 !important;
-    border-color: #001d33;
+/* Body & layout */
+body, .main-container {
+  background-color: var(--neutral-light) !important;
+  color: var(--text-default) !important;
 }
 
-a, .btn-link {
-    color: #007bff !important;
+/* Sidebar */
+.sidebar, .sidebar-content {
+  background-color: var(--dark-blue) !important;
+  color: white !important;
+}
+.sidebar a, .sidebar a:visited {
+  color: var(--bright-blue) !important;
+}
+.sidebar a:hover {
+  color: var(--primary-blue) !important;
 }
 
-.btn-primary {
-    background-color: #005aa7;
-    border-color: #004080;
+/* Top nav bar */
+.navbar, .navbar-default, .navbar-inner {
+  background-color: var(--primary-blue) !important;
+  border-bottom: 2px solid var(--bright-blue) !important;
+  color: white !important;
 }
 
-.panel-heading {
-    background-color: #003d66 !important;
-    color: #ffffff !important;
+/* Buttons */
+.btn, .btn-primary, .btn-default {
+  background-color: var(--bright-blue) !important;
+  border: 1px solid var(--primary-blue) !important;
+  color: white !important;
+}
+.btn-primary:hover, .btn:hover {
+  background-color: var(--primary-blue) !important;
 }
 
-.footer {
-    background-color: #002b49;
-    color: #ffffff;
+/* Links */
+a, a:visited {
+  color: var(--primary-blue) !important;
+}
+a:hover {
+  color: var(--bright-blue) !important;
+}
+
+/* Tables and lists */
+.table, .listViewEntriesTable {
+  background-color: white !important;
+  color: var(--text-default) !important;
+}
+.table tr:nth-child(even) {
+  background-color: var(--neutral-mid) !important;
+}
+
+/* Panels & modals */
+.panel, .panel-heading, .modal-content {
+  background-color: white !important;
+  color: var(--text-default) !important;
+}
+
+/* Inputs and form elements */
+input, select, textarea, .form-control {
+  background-color: white !important;
+  color: var(--text-default) !important;
+  border: 1px solid var(--neutral-mid) !important;
 }
