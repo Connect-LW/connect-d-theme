@@ -1,6 +1,4 @@
-
 /* === Connect‑D.tech Custom Theme === */
-
 
 :root {
   --primary-blue: #4374FA;
@@ -74,4 +72,24 @@ input, select, textarea, .form-control {
   background-color: white !important;
   color: var(--text-default) !important;
   border: 1px solid var(--neutral-mid) !important;
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  padding: 1rem 0;
+  background: linear-gradient(90deg, #59D2FB 0%, #3B94F7 100%);
+  text-align: center;
+}
+footer ul li a, footer ul li span {
+  color: #FFFFFF;
+  margin: 0 1rem;
+}
+footer ul li a {
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  footer ul li {
+    width: 100%;
+  }
 }
